@@ -1,0 +1,514 @@
+.bot, .bot1, .bot2 h3 {
+  font-size: 30px;
+  margin-top: 100px;
+  color: #ffff;
+  text-shadow: black 0 0 2px;
+}
+
+.vibor li ul, .vibor li ul li ul {
+  width: 300px;
+  position: absolute;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: #ededeb;
+}
+
+.logo {
+  background: #faee26;
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+
+.log1 {
+  width: 1%;
+  padding-top: 17px;
+  padding-left: 110px;
+  transition: all 0.2s ease;
+}
+.log1:hover {
+  padding-top: 25px;
+  transition: all 0.2s ease;
+}
+
+.log2 {
+  margin-top: 30px;
+  margin-left: 500px;
+  padding-right: 150px;
+  color: #5f5f5f;
+  font-size: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.log2 a {
+  color: #ffff;
+  text-shadow: black 0 0 3px;
+}
+
+input[data-rule].valid {
+  border: 4px solid green;
+}
+
+input[data-rule] {
+  border: 2px solid red;
+}
+
+.log3 {
+  padding-right: 15px;
+  color: #5f5f5f;
+  padding-right: 120px;
+  font-size: 15px;
+  margin-top: 39px;
+}
+.log3 h3 {
+  cursor: pointer;
+}
+.log3 a {
+  font-size: 18px;
+  color: #5f5f5f;
+}
+.log3 b {
+  text-shadow: black 0 0 2px;
+  font-size: 30px;
+  color: #ffff;
+}
+
+.vhod {
+  display: none;
+  padding-right: 15px;
+  color: #85f6ad;
+  text-shadow: black 0 0 2px;
+  padding-right: 120px;
+  font-size: 30px;
+  margin-top: 39px;
+}
+
+.registr {
+  background-color: #faee26;
+  width: 320px;
+  height: 650px;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 30px;
+  display: none;
+  position: absolute;
+  animation: mymove 1s;
+}
+.registr input {
+  margin-top: 10px;
+  width: 300px;
+  text-align: center;
+  margin-left: 7px;
+  background: #ededeb;
+}
+.registr c {
+  font-size: 14px;
+}
+
+.registr label {
+  display: inline-block;
+  margin-right: 125px;
+  font-size: 18px;
+}
+
+.form-control i {
+  position: relative;
+  bottom: 30px;
+  left: 270px;
+  visibility: hidden;
+}
+
+.form-control input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control small {
+  color: #e74c3c;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+@keyframes mymove {
+  from {
+    margin-top: -10px;
+  }
+  to {
+    margin-top: 30px;
+  }
+}
+.back {
+  width: 100%;
+  height: 100%;
+  background: #ededeb;
+}
+
+.buttons input {
+  margin-top: 30px;
+  margin-bottom: 7px;
+  width: 300px;
+  text-align: center;
+  margin-left: 7px;
+  cursor: pointer;
+  background: #85f6ad;
+  transition: all 0.4s ease;
+}
+.buttons input:hover {
+  background: #00ff59;
+  transition: all 0.4s ease;
+}
+
+.logbut {
+  margin-top: 70px;
+  margin-bottom: 7px;
+  width: 300px;
+  text-align: center;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.log4 {
+  text-align: center;
+  height: 120px;
+  line-height: 40px;
+  font-size: 20px;
+  text-shadow: black 0 0 1px;
+  color: #5f5f5f;
+  margin: auto;
+}
+.log4 a {
+  color: #000;
+}
+
+.log4a a {
+  text-shadow: black 1px 1px 3px;
+  color: #ffff;
+}
+.log4a a:hover {
+  color: #00e4ff;
+  font-size: 28px;
+  transition: all 0.2s ease;
+}
+
+.log4b a {
+  text-shadow: black 1px 1px 3px;
+  color: #ffff;
+}
+.log4b a:hover {
+  color: #00e4ff;
+  font-size: 28px;
+  transition: all 0.2s ease;
+}
+
+nav {
+  margin: 50px;
+  padding-right: 180px;
+}
+
+.topnav {
+  background-color: #ededeb;
+  display: flex;
+  justify-content: space-around;
+}
+.topnav a {
+  color: #5f5f5f;
+  font-size: 30px;
+  transition: all 0.4s ease;
+}
+.topnav a:hover {
+  border-bottom: 4px solid #000;
+  transition: all 0.3s ease;
+  color: #ffff;
+  text-shadow: black 0 0 3px;
+  background: #faee26;
+}
+
+.img {
+  width: 100%;
+  max-width: 100%;
+  transition: all 1.5s ease 0s;
+  margin-top: -10px;
+}
+
+.img._active {
+  margin-top: 10px;
+  opacity: 0.70;
+  transition: all 1.5s ease 0s;
+}
+
+.vis {
+  width: 45%;
+  color: #faee26;
+  text-shadow: black 0 0 3px;
+  text-align: left;
+  font-size: 50px;
+  margin-right: 500px;
+  opacity: 0;
+  transition: all 2s ease 0s;
+}
+
+.vis._active {
+  margin-top: 20px;
+  margin-left: 160px;
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+.tele {
+  width: 40%;
+  height: 300px;
+  margin-left: 110px;
+  padding-left: 20px;
+  background: #838382;
+  color: #ffff;
+  text-shadow: black 0 0 2px;
+  text-align: left;
+  font-size: 25px;
+  line-height: 70px;
+  transform: translate(0px, 20%);
+  opacity: 0;
+  transition: all 2s ease 0s;
+}
+
+.tele._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+.lupa {
+  position: absolute;
+  margin-left: 1735px;
+  margin-top: -363px;
+  float: left;
+}
+
+.lupawh {
+  width: 30px;
+  height: 30px;
+}
+.lupawh:hover {
+  padding-left: 5px;
+  padding-top: 3px;
+  transition: all 0.25s ease;
+}
+
+.search1 {
+  color: #838382;
+  margin-top: -370px;
+  float: left;
+  margin-left: 970px;
+  height: 370px;
+}
+
+input {
+  width: 800px;
+  height: 40px;
+  color: #5f5f5f;
+  background: none;
+  font-size: 20px;
+}
+
+.search {
+  width: 800px;
+  height: 40px;
+  color: #838382;
+  border: 4px solid #000;
+}
+
+.map {
+  width: 800px;
+  height: 245px;
+  opacity: 0;
+  transition: all 2s ease 0s;
+}
+
+.map._active {
+  opacity: 1;
+  transition: all 2s ease 0s;
+}
+
+.vib {
+  float: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  color: #faee26;
+  text-shadow: black 0 0 2px;
+  font-size: 30px;
+  transition: all 1.5s ease 0s;
+  opacity: 0.5;
+  margin-top: 100px;
+}
+
+.vib._active {
+  transition: all 1.5s ease 0s;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.vibor {
+  margin-bottom: 400px;
+  width: 700px;
+  padding-left: 20px;
+  margin-top: 30px;
+  float: left;
+  font-size: 40px;
+  line-height: 100px;
+  height: 300px;
+  transition: all 1s ease 0s;
+  opacity: 0.5;
+  margin-top: 100px;
+}
+.vibor li ul {
+  text-align: right;
+  display: none;
+  margin-top: -110px;
+  font-size: 30px;
+  line-height: 50px;
+  right: 780px;
+}
+.vibor li ul li ul {
+  text-align: center;
+  margin-top: -70px;
+  left: 300px;
+}
+.vibor ul li ul a {
+  border-bottom: 1px solid #838382;
+}
+.vibor ul li a {
+  color: #3e3e3e;
+  transition: all 0.3s ease;
+}
+.vibor ul li a:hover {
+  transition: all 0.2s ease;
+  background: #faee26;
+  box-shadow: 1px 5px 10px -5px black;
+}
+.vibor li:hover > ul {
+  transition: all 0.5s ease;
+  display: block;
+}
+
+.vibor._active {
+  transition: all 1s ease 0s;
+  margin-left: 280px;
+  opacity: 1;
+}
+
+.zakaz {
+  float: left;
+  padding-top: 450px;
+  font-size: 70px;
+}
+.zakaz a {
+  background: #85f6ad;
+  color: #ffff;
+  transition: all 0.25s ease;
+  padding: 30px;
+}
+.zakaz a:hover {
+  font-size: 80px;
+  transition: all 0.25s ease;
+}
+
+table {
+  width: 1600px;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 120px;
+  height: 400px;
+}
+table td {
+  padding-left: 50px;
+}
+
+.ssilki {
+  transition: all 0.25s ease;
+  width: 100px;
+  height: 100px;
+  align-content: center;
+}
+.ssilki:hover {
+  padding: 10px;
+  transition: all 0.25s ease;
+}
+
+.ssilki._active {
+  width: 150px;
+  height: 150px;
+  transition: all 1s ease;
+}
+
+.bottom {
+  background: #838382;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  margin-top: 130px;
+}
+
+.bot {
+  float: left;
+  padding-left: 100px;
+}
+
+.bot1 {
+  text-align: center;
+}
+.bot1 a {
+  color: black;
+  transition: all 0.25s ease;
+}
+.bot1 a:hover {
+  transition: all 0.25s ease;
+  font-size: 50px;
+}
+
+.bot2 h3 {
+  float: left;
+  width: 400px;
+  margin-right: 250px;
+  text-align: right;
+}
+
+/*# sourceMappingURL=main.css.map */
